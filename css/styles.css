@@ -77,6 +77,14 @@ body {
   text-align: center;
 }
 
+.portfolio-class {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
 .footer-class {
   background-color: #2e2f42;
   color: #ffffff;
@@ -107,12 +115,4 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.portfolio-class {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-align: center;
 }

@@ -23,10 +23,6 @@ body {
 .nav-class a:focus {
   color: #404bbf;
 }
-.nav-class a:active {
-  text-decoration: underline;
-  text-decoration-color: #404bbf;
-}
 
 .address-class ul li a {
   font-size: 16px;

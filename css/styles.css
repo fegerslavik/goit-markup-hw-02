@@ -1,6 +1,5 @@
 ul {
   list-style-type: none;
-  list-style: none;
 }
 
 a {
@@ -14,12 +13,27 @@ body {
 }
 
 .nav-class ul li a {
-  font: roboto, sans-serif;
-  font-weight: 500;
-  font-style: medium;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+}
+
+.nav-class a:hover,
+.nav-class a:focus {
+  color: #4d5ae5;
+}
+
+.address-class ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-class a:hover,
+.address-class a:focus {
+  color: #4d5ae5;
 }
 
 .hero-section {
@@ -28,23 +42,19 @@ body {
 }
 
 .h1-class {
-  font: roboto, sans-serif;
   font-size: 56px;
   font-weight: 700;
   margin-bottom: 20px;
-  font-style: bold;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .button-class {
-  font: roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
-  font-style: medium;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
   text-align: left;
@@ -73,31 +83,36 @@ body {
 }
 
 .logo-web {
-  font: railway, sans-serif;
+  font: raleway, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 
 .logo-top {
-  font: railway, sans-serif;
+  font: raleway, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: #2e2f42;
 }
 
 .logo-bottom {
-  font: railway, sans-serif;
+  font: raleway, sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.portfolio-class {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
 }

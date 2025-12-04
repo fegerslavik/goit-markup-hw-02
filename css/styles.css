@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: #2e2f42;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.hero-section {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.h1-class {
+  font: roboto, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-style: bold;
+  line-height: 1.07;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.button-class {
+  font: roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: medium;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  text-align: left;
+  cursor: pointer;
+}
+
+.team-class {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+}

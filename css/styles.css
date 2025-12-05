@@ -9,26 +9,28 @@ a {
 
 body {
   font-family: roboto, raleway, sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #fff;
 }
 
-.nav-class ul li a {
+.site-nav ul li a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.nav-class a:hover,
-.nav-class a:focus {
+.site-nav a:hover,
+.site-nav a:focus {
   color: #404bbf;
 }
 
-.address-class ul li a {
+.address-class {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .address-class a:hover,
@@ -41,7 +43,7 @@ body {
   color: #ffffff;
 }
 
-.caption-class {
+.hero-title {
   font-size: 56px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -65,23 +67,23 @@ body {
 .button-class:focus {
   background-color: #404bbf;
 }
-.team-class {
+.team-section {
   background-color: #f4f4fd;
 }
 
-.team-class .team-item {
+.team-section .team-item {
   background-color: #ffffff;
 }
 
-.team-class .team-member {
+.team-section .team-member {
   text-align: center;
 }
 
-.team-class .member-position {
+.team-section .member-position {
   text-align: center;
 }
 
-.portfolio-class {
+.portfolio-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
@@ -91,7 +93,7 @@ body {
 
 .footer-class {
   background-color: #2e2f42;
-  color: #ffffff;
+  color: #f4f4fd;
 }
 
 .logo-web {
@@ -103,7 +105,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-top {
+.logo-studio-top {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -112,11 +114,11 @@ body {
   color: #2e2f42;
 }
 
-.logo-bottom {
+.logo-studio-bottom {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #f4f4fd;
 }

@@ -13,6 +13,26 @@ body {
   background-color: #fff;
 }
 
+.team-section h2,
+.portfolio-section h2,
+.features-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-section h3,
+.portfolio-section h3,
+.features-section h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .site-nav ul li a {
   font-size: 16px;
   font-weight: 500;
@@ -31,6 +51,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+  color: #434455;
+}
+
+.address-class a {
+  color: #434455;
 }
 
 .address-class a:hover,
@@ -69,6 +94,18 @@ body {
 }
 .team-section {
   background-color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team-section .team-item {
@@ -86,14 +123,25 @@ body {
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.portfolio-list {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .footer-class {
   background-color: #2e2f42;
   color: #f4f4fd;
+}
+
+.logo-full {
+  text-transform: uppercase;
 }
 
 .logo-web {
